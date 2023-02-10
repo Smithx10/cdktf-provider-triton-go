@@ -1,4 +1,4 @@
-module github.com/cdktf/cdktf-provider-triton-go/triton
+module github.com/Smithx10/cdktf-provider-triton-go/triton
 
 go 1.18
 
@@ -8,5 +8,5 @@ require (
 	github.com/aws/constructs-go/constructs/v10 v10.1.246
 )
 
-replace github.com/cdktf/cdktf-provider-triton-go/triton => github.com/Smithx10/cdktf-provider-triton-go/triton v0.0.1
+replace github.com/Smithx10/cdktf-provider-triton-go/triton => github.com/Smithx10/cdktf-provider-triton-go/triton v0.0.1
 

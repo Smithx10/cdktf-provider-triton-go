@@ -36,9 +36,9 @@ The Maven package is available at [https://mvnrepository.com/artifact/com.hashic
 
 ### Go
 
-The go package is generated into the [`github.com/cdktf/cdktf-provider-triton-go`](https://github.com/cdktf/cdktf-provider-triton-go) package.
+The go package is generated into the [`github.com/Smithx10/cdktf-provider-triton-go`](https://github.com/Smithx10/cdktf-provider-triton-go) package.
 
-`go get github.com/cdktf/cdktf-provider-triton-go/triton`
+`go get github.com/Smithx10/cdktf-provider-triton-go/triton`
 
 ## Docs
 

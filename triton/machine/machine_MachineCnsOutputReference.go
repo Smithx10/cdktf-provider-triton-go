@@ -2,9 +2,9 @@ package machine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-triton-go/triton/jsii"
+	_init_ "github.com/Smithx10/cdktf-provider-triton-go/triton/jsii"
 
-	"github.com/cdktf/cdktf-provider-triton-go/triton/machine/internal"
+	"github.com/Smithx10/cdktf-provider-triton-go/triton/machine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
