@@ -100,6 +100,10 @@ func (j *jsiiProxy_Machine) validateSetConnectionParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_Machine) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_Machine) validateSetDelegateDatasetParameters(val interface{}) error {
 	return nil
 }

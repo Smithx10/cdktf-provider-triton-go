@@ -64,6 +64,10 @@ func validateDataTritonFabricNetwork_IsTerraformElementParameters(x interface{})
 	return nil
 }
 
+func (j *jsiiProxy_DataTritonFabricNetwork) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataTritonFabricNetwork) validateSetIdParameters(val *string) error {
 	return nil
 }

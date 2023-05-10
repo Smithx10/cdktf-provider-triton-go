@@ -21,9 +21,9 @@ type FirewallRule interface {
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
-	Count() *float64
+	Count() interface{}
 	// Experimental.
-	SetCount(val *float64)
+	SetCount(val interface{})
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,8 +147,8 @@ func (j *jsiiProxy_FirewallRule) ConstructNodeMetadata() *map[string]interface{}
 	return returns
 }
 
-func (j *jsiiProxy_FirewallRule) Count() *float64 {
-	var returns *float64
+func (j *jsiiProxy_FirewallRule) Count() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"count",
@@ -408,7 +408,10 @@ func (j *jsiiProxy_FirewallRule)SetConnection(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_FirewallRule)SetCount(val *float64) {
+func (j *jsiiProxy_FirewallRule)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
 	_jsii_.Set(
 		j,
 		"count",

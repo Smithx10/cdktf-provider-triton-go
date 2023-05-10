@@ -64,6 +64,10 @@ func validateDataTritonImage_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_DataTritonImage) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataTritonImage) validateSetIdParameters(val *string) error {
 	return nil
 }

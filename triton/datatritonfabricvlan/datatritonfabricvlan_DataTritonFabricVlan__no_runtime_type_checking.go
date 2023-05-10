@@ -64,6 +64,10 @@ func validateDataTritonFabricVlan_IsTerraformElementParameters(x interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_DataTritonFabricVlan) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataTritonFabricVlan) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

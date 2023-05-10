@@ -17,9 +17,9 @@ type DataTritonNetwork interface {
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
-	Count() *float64
+	Count() interface{}
 	// Experimental.
-	SetCount(val *float64)
+	SetCount(val interface{})
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,8 +122,8 @@ func (j *jsiiProxy_DataTritonNetwork) ConstructNodeMetadata() *map[string]interf
 	return returns
 }
 
-func (j *jsiiProxy_DataTritonNetwork) Count() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataTritonNetwork) Count() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"count",
@@ -332,7 +332,10 @@ func NewDataTritonNetwork_Override(d DataTritonNetwork, scope constructs.Constru
 	)
 }
 
-func (j *jsiiProxy_DataTritonNetwork)SetCount(val *float64) {
+func (j *jsiiProxy_DataTritonNetwork)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
 	_jsii_.Set(
 		j,
 		"count",

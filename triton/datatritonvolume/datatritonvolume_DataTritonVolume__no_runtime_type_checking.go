@@ -64,6 +64,10 @@ func validateDataTritonVolume_IsTerraformElementParameters(x interface{}) error 
 	return nil
 }
 
+func (j *jsiiProxy_DataTritonVolume) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataTritonVolume) validateSetFilesystemPathParameters(val *string) error {
 	return nil
 }
